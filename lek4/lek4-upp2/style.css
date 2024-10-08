@@ -1,0 +1,71 @@
+body{
+    background-image: url("img/winter-snow.jpg");
+    font-family: Arial, sans-serif;
+    
+}
+
+.rubrik {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 5px solid black;
+    color: lightgray;
+    align-items: center;
+}
+.rubrik h1{
+    background-color: grey;
+    font-size: 40px;;
+}
+
+.helgdagar{
+    background-color: grey;
+    border: 3px solid white;
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 3px;
+    color: white
+}
+
+#Julafton{
+    background-color: white;
+    color: red;
+}
+
+#Nyår{
+    background-color: yellow;
+}
+
+table{
+    background-color: blanchedalmond;
+    margin: 20px auto;
+    font-size: 20px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    color: black;
+    
+
+}
+
+table tr th{
+    border: 3px solid black;
+    padding: 5px;
+    background-color: grey;
+    color: black;
+}
+
+table tr td{
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.footerbild{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.footerbild img{
+    width: 100%;
+}
