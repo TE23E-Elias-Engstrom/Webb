@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: #35424a;
+    color: #e8491d;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: #e8491d 3px solid;
+
+
+}
+
+.Header a {
+    color: white;
+    margin-left: 20px;
+
+}
+
+.övre {
+    color: white;
+    background-image: url(./img/showcase.jpg);
+    height: 100vh;
+    padding: 0px;
+    text-align: center;
+    height: 500px;
+
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+
+}
+.text h1 {
+    margin: 0;
+    width: 45%;
+    font-size: 50px;
+    padding-bottom: 25px;
+
+}
+.text p {
+    margin: 0;
+    width: 80%;
+}
+.mitten{
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.undre{
+  display: flex;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 50px;
+    
+}
+.sidfot{
+    background-color: #e8491d;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+button{
+    background-color: #e8491d;
+    color: white;
+    padding: 7px;
+}
+input{
+    padding: 7px;
+}
+
