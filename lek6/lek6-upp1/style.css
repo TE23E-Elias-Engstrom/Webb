@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20vh 60vh 20vh;
+    gap: 10px;
+}
+
+#rawr{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    height: 99%;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.rubrik{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+article{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+nav{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+footer{
+    grid-column: 2/3;
+}
