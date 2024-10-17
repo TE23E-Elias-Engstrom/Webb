@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 20vh 60vh 20vh;
+    gap: 10px;
+}
+
+.special{
+    background-color: aqua;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
