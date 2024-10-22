@@ -45,4 +45,5 @@ nav{
 }
 footer{
     grid-column: 2/3;
+    border: 3px solid black;
 }
