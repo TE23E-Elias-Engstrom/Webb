@@ -1,0 +1,74 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 15vh 15vh 93vh 20vh;
+    gap: 5px;
+}
+
+header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.logo img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 99%;
+    width: auto;
+    align-items: center;
+
+}
+
+aside {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border: 3px solid black;
+    height: 99%;
+    width: auto;
+}
+aside img{
+    max-height: 99%;
+}
+
+nav{
+border: 3px solid black;
+border-radius: 5px;
+background-color: black;
+color: white;
+text-align: center;
+a {
+    color: white;
+    ;
+}
+}
+
+main {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 99%;
+    width: auto;
+}
+
+main img{
+    max-width: 30%;
+    height: auto;
+}
