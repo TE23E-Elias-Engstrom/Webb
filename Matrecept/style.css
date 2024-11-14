@@ -28,7 +28,7 @@ body{
 .länkar-bakgrund li{
     width: 100%;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 5%;
 
 }
 
@@ -36,10 +36,24 @@ body{
     background-color: white;
     border-radius: 20px;
     padding-right: 10px;
-    width: 85%;
-    margin-left: 50px;
+    width: 70%;
+    margin-left: 20%;
 }
-img{
-    width: 100px;
-    height: 100px;
+
+
+.Bild{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    grid-column: 2/3;
+    grid-row: 2/4;
+
+}
+
+.Ingredienser{
+    display: flex;
+    justify-content: center;
+    grid-column: 2/1
+    align-items: center;
 }
