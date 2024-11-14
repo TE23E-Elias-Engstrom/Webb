@@ -1,6 +1,45 @@
 body{
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-image: url(img/Bakgrundbild.webp);
+    margin: auto;
 }
 .Rubrik{
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    grid-column: 1/3;
+    align-items: center;
+}
+.Rubrik h1{
+    background-color: white;
+    width: 40%;
+    border-radius: 20px;
+    height: 70px;
+}
+.länkar-bakgrund{
+    display: flex;
+    flex-direction: column;  
+    font-size: 25px;
+    grid-column: 1/2;
+}
+.länkar-bakgrund li{
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 50px;
+
+}
+
+.länkar-bakgrund {
+    background-color: white;
+    border-radius: 20px;
+    padding-right: 10px;
+    width: 85%;
+    margin-left: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
 }
