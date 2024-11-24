@@ -39,7 +39,7 @@ body{
 }
 
 #bild{
-    height: 420px;
+    height: 400px;
     width: 400px;
     margin-top: 15px;
     border-radius: 10px;
@@ -51,7 +51,7 @@ body{
     
     background-color: white;
     border-radius: 20px;
-    height: 450px;
+    height: 425px;
     width: 425px;
 }
 
