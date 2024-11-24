@@ -1,8 +1,8 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    background-image: url(img/Bakgrundbild.webp);
+    grid-template-rows: 0.75fr 1fr 1fr;
+    background-image: url(./img/Bakgrundbild.webp);
     margin: auto;
 }
 .Rubrik{
@@ -87,7 +87,7 @@ body{
     margin-right: 5%;
     background-color: white;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 22.5px;
 }
 
 .instruktioner h2{
