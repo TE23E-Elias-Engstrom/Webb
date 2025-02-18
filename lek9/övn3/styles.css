@@ -15,3 +15,14 @@ div{
     gap: 5px;
     border: 2px solid black;
 }
+
+.ny_fråga_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: px;
+    border: 2px solid black;
+}
+
+

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frågesport Huvudstäder</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Fråesport Huvudstäder</h1>
+    <h1>Frågesport Huvudstäder</h1>
     <div class="fråga_div">
         <p id="fråga">FRÅGA: fråga 1 </p>
     </div>
@@ -18,6 +18,12 @@
     <div class="resultat_div">
         <p id="resultat">SVAR: Svar 1</p>
         <button onclick="fråga()">Ny Fråga</button>
+    </div>
+    <div class="ny_fråga_div">
+        <p>NYTT LAND: <input type="text" id="ny_land" size="20"></p>
+        <p>NY HUVUDSTAD: <input type="text" id="ny_stad" size="20"></p>
+        <button onclick="ny_fråga()">Klicka för att lägga till</button>
+
     </div>
 </body>
 <script src="script.js"></script>
